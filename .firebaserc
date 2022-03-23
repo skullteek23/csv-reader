@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "freekyk-platform-prod": {
+      "hosting": {
+        "csv-reader": [
+          "freekyk-platform-prod"
+        ]
+      }
+    }
+  }
+}

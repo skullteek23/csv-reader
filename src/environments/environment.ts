@@ -3,7 +3,23 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyAzXC-p7kWnDxku9SR_6okiIn7Ri6Tv67w',
+    authDomain: 'football-platform-beta.firebaseapp.com',
+    databaseURL:
+      'https://football-platform-beta-default-rtdb.asia-southeast1.firebasedatabase.app',
+    projectId: 'football-platform-beta',
+    storageBucket: 'football-platform-beta.appspot.com',
+    messagingSenderId: '1098285494743',
+    appId: '1:1098285494743:web:22561dab1063e23f2b5b92',
+    measurementId: 'G-BDJ5TQ82BE',
+  },
+  // test api keys
+  razorPay: {
+    key_id: 'rzp_test_LSdBGlAyude8YE',
+    key_secret: 'yN2TYg2VWzuzozdGWRmrX0Ma',
+  },
 };
 
 /*
