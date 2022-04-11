@@ -87,3 +87,15 @@ export interface CsvDataGround {
   signedContractFileLink: string;
   totAvailHours: string;
 }
+export interface CsvStandingsLeague {
+  timgpath: string;
+  tName: string;
+  p: string;
+  w: string;
+  d: string;
+  l: string;
+  gf: string;
+  ga: string;
+  gd: string;
+  pts: string;
+}
