@@ -24,10 +24,11 @@ export class StandingsCreationComponent implements OnInit {
       .parse(files[0], { header: true, delimiter: ',' })
       .toPromise()
       .catch((error) => error);
-    const seasonId = '3wfombWj4ZFa1KhytJRT';
     const data: LeagueTableModel[] = [];
+    let seasonId = null;
     this.csvRecords.forEach(async (record: CsvStandingsLeague) => {
       // code here
+      seasonId = record.sid;
       data.push({
         tData: { timgpath: record.timgpath, tName: record.tName },
         w: +record.w,
@@ -37,6 +38,9 @@ export class StandingsCreationComponent implements OnInit {
         ga: +record.ga,
       });
     });
+    if (!seasonId) {
+      return;
+    }
     this.ngFirestore
       .collection('leagues')
       .doc(seasonId)

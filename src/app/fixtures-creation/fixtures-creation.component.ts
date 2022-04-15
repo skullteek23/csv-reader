@@ -36,7 +36,7 @@ export class FixturesCreationComponent implements OnInit {
         id: mid,
         date: firebase.firestore.Timestamp.fromDate(new Date(record.date)),
         concluded: record.concluded === 'TRUE',
-        teams: record.teams.split(','),
+        teams: [record.teamA, record.teamB],
         logos: record.logos.split(','),
         season: record.season,
         premium: record.premium === 'TRUE',

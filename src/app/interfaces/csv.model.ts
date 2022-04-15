@@ -46,7 +46,8 @@ export interface CsvDataSeason {
 export interface CsvDataFixtures {
   date: string;
   concluded: string;
-  teams: string;
+  teamA: string;
+  teamB: string;
   logos: string;
   season: string;
   premium: string;
@@ -88,6 +89,7 @@ export interface CsvDataGround {
   totAvailHours: string;
 }
 export interface CsvStandingsLeague {
+  sid: string;
   timgpath: string;
   tName: string;
   p: string;
