@@ -101,3 +101,6 @@ export interface CsvStandingsLeague {
   gd: string;
   pts: string;
 }
+export interface CsvTeam {
+  name: string;
+}

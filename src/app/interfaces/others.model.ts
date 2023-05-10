@@ -1,16 +1,10 @@
-import { Timestamp } from '@firebase/firestore-types';
 import { GroundPrivateInfo } from './ground.model';
 import { SeasonBasicInfo } from './season.model';
 export interface heroCallToAction {
   name: string;
   route: string;
 }
-export interface ShareData {
-  share_url: string;
-  share_title: string;
-  share_desc: string;
-  share_imgpath: string;
-}
+
 export interface fr {
   id: string;
   name: string;
@@ -46,7 +40,7 @@ export interface VEProject {
   photos: string[];
 }
 export interface LeagueTableModel {
-  tData: { timgpath: string; tName: string };
+  tData: { logo: string; name: string };
   w: number;
   d: number;
   l: number;
@@ -59,13 +53,13 @@ export interface LeagueTableModel {
 }
 export interface CommunityPlayTableModel {
   rank: number;
-  tData: { timgpath: string; tName: string };
+  tData: { logo: string; name: string };
   loc: string;
   cpPts: number;
 }
 export interface CommunityLeaderboard {
-  home: { timgpath: string; tName: string };
-  away: { timgpath: string; tName: string };
+  home: { logo: string; name: string };
+  away: { logo: string; name: string };
   stadium: string;
   winner: string;
 }
@@ -97,7 +91,7 @@ export interface uData {
 }
 export interface logDetails {
   email: string;
-  pass: string;
+  password: string;
   name?: string;
 }
 export interface statsIcon {
@@ -108,13 +102,6 @@ export interface statsIcon {
 export interface positionGroup {
   position: string;
   pos_name: string[];
-}
-export interface matchData {
-  date: Timestamp;
-  concluded: boolean;
-  home: { imgpathLogo: string; name: string };
-  away: { imgpathLogo: string; name: string };
-  score?: { home: number; away: number };
 }
 export interface tricks {
   submissionVideo: string;
@@ -155,7 +142,9 @@ export interface Stats {
   Appearances: number;
   Wins: number;
   Goals: number;
-  Cards: number;
+  'Red Cards': number;
+  'Yellow Cards': number;
+
 }
 export interface StatsFs {
   'Skill Level': number;
@@ -188,24 +177,22 @@ export interface userAddress {
 }
 export interface adminSeasonForm {
   sData: SeasonBasicInfo;
-  startDate: Date;
+  startDate: number;
   cont_tour: 'FKC' | 'FCP' | 'FPL';
 }
 export interface tempTour {
   participantCount: number;
   perTeamPlaying: number;
   tour_type: 'FKC' | 'FPL' | 'FCP';
-  startDate: Date;
+  startDate: number;
   isFixturesEmpty?: boolean;
 }
-export interface CloufFunctionFixtureData {
-  sid: string;
-  sname: string;
+export interface fixtureGenerationData {
+  sName: string;
   grounds: GroundPrivateInfo[];
-  matches: number;
-  startDate: Date;
-  oneMatchDur: number;
-  tour_type: 'FKC' | 'FPL' | 'FCP';
+  matches: any;
+  startDate: number;
+  teamParticipating: number;
 }
 export interface GroundTimings {
   0: [];
@@ -226,23 +213,24 @@ export interface QueryInfo {
   queryItem: string;
   queryValue: string;
   queryComparisonSymbol?:
-    | '<='
-    | '>='
-    | '>'
-    | '<'
-    | 'array-contains'
-    | 'in'
-    | '=='
-    | 'array-contains-any'
-    | 'in'
-    | 'not-in'
-    | '!=';
+  | '<='
+  | '>='
+  | '>'
+  | '<'
+  | 'array-contains'
+  | 'in'
+  | '=='
+  | 'array-contains-any'
+  | 'in'
+  | 'not-in'
+  | '!=';
 }
 export interface FeatureSectionContent {
   subHeading: string;
   CTA: {
     text: string;
     link: string;
+    disabled?: boolean;
   };
   desc: string;
 }
@@ -250,4 +238,40 @@ export interface CommunityNumbersContent {
   heading: string;
   desc: string;
   numbers: {};
+}
+
+export interface ListOption {
+  value: any;
+  viewValue: string;
+  disabled?: boolean
+}
+
+export interface LocationDetails {
+  city: string;
+  state: string;
+  country?: string;
+}
+export interface IFilter {
+  city: string;
+  referee: boolean;
+  foodBev: boolean;
+  parking: boolean;
+  goalpost: boolean;
+  washroom: boolean;
+  staff: boolean;
+}
+
+export interface ITiming {
+  hour: number;
+  day: string;
+  selected: boolean;
+}
+
+export interface IFaqQuestions {
+  ques: string;
+  answer: string;
+  media?: {
+    images: string[];
+    videos: string[];
+  }
 }

@@ -1,22 +1,39 @@
-import { Timestamp } from '@firebase/firestore-types';
-export type TEAM_WELCOME = 'team welcome';
-export type REQUEST = 'request';
-export type INVITE = 'invite';
-export type CHALLENGE = 'team challenge';
+export enum NotificationTypes {
+  playerJoinRequest = 0,
+  captainJoinInvite = 1,
+  teamWelcome = 2,
+  challengeTeam = 3,
+  playerRejectInvite = 4,
+  teamRejectInvite = 5,
+  playerAcceptInvite = 6,
+}
+
+export const NotificationTitles = [
+  'Team Join Request',
+  'Team Join Invite',
+  'Welcome to the team!',
+  'Challenge received!',
+  'Invite rejected by Player',
+  'Invite rejected by Captain',
+  'Player has joined your team',
+]
+
+export const NotificationFormatter = {
+  formatTitle: (key: number): string => {
+    return NotificationTitles[key];
+  }
+}
+
 export interface NotificationBasic {
-  type: TEAM_WELCOME | REQUEST | INVITE | CHALLENGE;
-  senderId: string;
-  recieverId: string;
-  date: Timestamp;
-  title: string;
-  senderName?: string | null;
+  read: number,
+  senderID: string,
+  senderName: string,
+  receiverID: string,
+  receiverName: string,
+  date: number,
+  type: NotificationTypes,
   id?: string;
+  expire: number;
+  parentID?: string;
 }
-export interface Invite {
-  teamId: string;
-  teamName: string;
-  inviteeId: string;
-  inviteeName: string;
-  status: 'wait' | 'accept' | 'reject';
-  id?: string;
-}
+

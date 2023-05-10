@@ -1,0 +1,524 @@
+{
+  "Oscar Delta FC": {
+    "memCount": "7",
+    "members": [
+      {
+        "name": "Gauravsingh",
+        "id": "Rgh6OjUMv9ZV5BwsFlEhK95vTDX2",
+        "pl_pos": "Right Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "ishansh",
+        "id": "Igjk7ChH6mZu93CfihHFbJcSXQQ2",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rohan solanki",
+        "id": "EbvuEDrxWkhoAykHmCLWTMiMsLy1",
+        "pl_pos": "GoalKeeper",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Aditya",
+        "id": "Dh7Yxk4rLCeIxfyedahSt3gNvag1",
+        "pl_pos": "Center Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "harsh chaudhary",
+        "id": "nRo4vI1NjFSGchrDpFcNAg3uekq2",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rahul Yadav",
+        "id": "d6P2PMlOrjgGJRxg98EJS9DE5f13",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Saransh Nawani",
+        "id": "C4yusx2MlvWMehE8XMuQ8DSbGvZ2",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      }
+    ]
+  },
+  "Lone Wolf FC": {
+    "memCount": "2",
+    "members": [
+      {
+        "name": "Arpit Rathore",
+        "id": "seofcu1MooWCM4OC1L66C7tDhJb2",
+        "pl_pos": "Left Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Harshit",
+        "id": "kxWcAyVe7vaDzIxe04d8LROQrsh1",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      }
+    ]
+  },
+  "Annihilation FC": {
+    "memCount": "5",
+    "members": [
+      {
+        "name": "Shivam mahajan",
+        "id": "kCZupwU8G2eyf0T9icnG8JhiVy32",
+        "pl_pos": "Right Winger",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Raghav Awasthi",
+        "id": "vZdLA5k0jzanObZMghTZLitwfQD2",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Abhay mehta",
+        "id": "EbvuEDrxWkhoAykHmCLWTMiMsLy1",
+        "pl_pos": "Center Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Ritesh Dadhwal",
+        "id": "kbxA5c3vx0fzyPaptkqRse9DsFu2",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "KUSHAGRA",
+        "id": "LmSmqr4iWzf2mUZ4P4rlzTusrf53",
+        "pl_pos": "Right Winger",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      }
+    ]
+  },
+  "Vaishali FC": {
+    "memCount": "7",
+    "members": [
+      {
+        "name": "Eshan Banduni",
+        "id": "dd0qSkHCnVbDKNpdug4v8D3f6uv1",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Vaibhav",
+        "id": "DkMqJPD4TJefen9hjex5Ito7Bdp1",
+        "pl_pos": "Center Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Aman chauhan",
+        "id": "9rxx5h8NtcMIb4wcplXLhNz72Oz1",
+        "pl_pos": "Center Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Harman",
+        "id": "pfpR7OG83Rfxd76QgccWoQ7K6Xq2",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Shivam Dhanai",
+        "id": "D1XKPM8wI1YjJl0T3D5gD9hH5Qu1",
+        "pl_pos": "GoalKeeper",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Tanishq Amoli",
+        "id": "lnC9ThMsdaSkflTdvNHMdm5761g1",
+        "pl_pos": "Left Winger",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Ketan Sharma",
+        "id": "d7hoepIiolVmog27Gy51ae2Ragi2",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      }
+    ]
+  },
+  "Indian Arrows FC": {
+    "memCount": "6",
+    "members": [
+      {
+        "name": "Abhishek Chaudhary",
+        "id": "KGTPxFfL5daKK9ec8Ydk6x0DBW03",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Vicky paul",
+        "id": "kW6K5ygx52d2ejJSlsI9jBZ0pos2",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Aman",
+        "id": "lUkOOf3lTANsNRLiCOy5W5awTRz2",
+        "pl_pos": "Right Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Sushant",
+        "id": "whJwtmwkDpdX7K2RWD4lb6hoLL72",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "LOHITYA NEGI",
+        "id": "ZWFEE6zEBoekafROCVrwrxXga7z2",
+        "pl_pos": "Left Winger",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Shubham Goswami",
+        "id": "3SlyzPWv57ZBghxZoAZcezdVjYw1",
+        "pl_pos": "Right Winger",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      }
+    ]
+  },
+  "Vasundhara City FC": {
+    "memCount": "8",
+    "members": [
+      {
+        "name": "Shubhranshu",
+        "id": "f0m8Nkojr0dE4ebsk5S4ipkAWom2",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "ANKIT RAI",
+        "id": "06Xgksackegh2rgygP2ccazDo1x2",
+        "pl_pos": "Center Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rajat Singh",
+        "id": "EbvuEDrxWkhoAykHmCLWTMiMsLy1",
+        "pl_pos": "GoalKeeper",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Hitesh Bisht",
+        "id": "Dh7Yxk4rLCeIxfyedahSt3gNvag1",
+        "pl_pos": "Center Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Ashutosh Ghildiyal",
+        "id": "nRo4vI1NjFSGchrDpFcNAg3uekq2",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Tanmay Sharma",
+        "id": "d6P2PMlOrjgGJRxg98EJS9DE5f13",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Shubham",
+        "id": "C4yusx2MlvWMehE8XMuQ8DSbGvZ2",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Abhishek Dhaundiyal",
+        "id": "C4yusx2MlvWMehE8XMuQ8DSbGvZ2",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      }
+    ]
+  },
+  "Slayers FC": {
+    "memCount": "6",
+    "members": [
+      {
+        "name": "Gauravsingh",
+        "id": "Rgh6OjUMv9ZV5BwsFlEhK95vTDX2",
+        "pl_pos": "Right Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "ishansh",
+        "id": "Igjk7ChH6mZu93CfihHFbJcSXQQ2",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rohan solanki",
+        "id": "EbvuEDrxWkhoAykHmCLWTMiMsLy1",
+        "pl_pos": "GoalKeeper",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Aditya ",
+        "id": "Dh7Yxk4rLCeIxfyedahSt3gNvag1",
+        "pl_pos": "Center Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "harsh chaudhary",
+        "id": "nRo4vI1NjFSGchrDpFcNAg3uekq2",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rahul Yadav",
+        "id": "d6P2PMlOrjgGJRxg98EJS9DE5f13",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Saransh Nawani",
+        "id": "C4yusx2MlvWMehE8XMuQ8DSbGvZ2",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      }
+    ]
+  },
+  "Hydra FC": {
+    "memCount": "5",
+    "members": [
+      {
+        "name": "Gauravsingh",
+        "id": "Rgh6OjUMv9ZV5BwsFlEhK95vTDX2",
+        "pl_pos": "Right Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "ishansh",
+        "id": "Igjk7ChH6mZu93CfihHFbJcSXQQ2",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rohan solanki",
+        "id": "EbvuEDrxWkhoAykHmCLWTMiMsLy1",
+        "pl_pos": "GoalKeeper",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Aditya ",
+        "id": "Dh7Yxk4rLCeIxfyedahSt3gNvag1",
+        "pl_pos": "Center Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "harsh chaudhary",
+        "id": "nRo4vI1NjFSGchrDpFcNAg3uekq2",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rahul Yadav",
+        "id": "d6P2PMlOrjgGJRxg98EJS9DE5f13",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Saransh Nawani",
+        "id": "C4yusx2MlvWMehE8XMuQ8DSbGvZ2",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      }
+    ]
+  },
+  "Demolition Crew": {
+    "memCount": "10",
+    "members": [
+      {
+        "name": "Gauravsingh",
+        "id": "Rgh6OjUMv9ZV5BwsFlEhK95vTDX2",
+        "pl_pos": "Right Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "ishansh",
+        "id": "Igjk7ChH6mZu93CfihHFbJcSXQQ2",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rohan solanki",
+        "id": "EbvuEDrxWkhoAykHmCLWTMiMsLy1",
+        "pl_pos": "GoalKeeper",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Aditya ",
+        "id": "Dh7Yxk4rLCeIxfyedahSt3gNvag1",
+        "pl_pos": "Center Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "harsh chaudhary",
+        "id": "nRo4vI1NjFSGchrDpFcNAg3uekq2",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rahul Yadav",
+        "id": "d6P2PMlOrjgGJRxg98EJS9DE5f13",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Saransh Nawani",
+        "id": "C4yusx2MlvWMehE8XMuQ8DSbGvZ2",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      }
+    ]
+  },
+  "Badmash FC": {
+    "memCount": "8",
+    "members": [
+      {
+        "name": "Gauravsingh",
+        "id": "Rgh6OjUMv9ZV5BwsFlEhK95vTDX2",
+        "pl_pos": "Right Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "ishansh",
+        "id": "Igjk7ChH6mZu93CfihHFbJcSXQQ2",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rohan solanki",
+        "id": "EbvuEDrxWkhoAykHmCLWTMiMsLy1",
+        "pl_pos": "GoalKeeper",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Aditya ",
+        "id": "Dh7Yxk4rLCeIxfyedahSt3gNvag1",
+        "pl_pos": "Center Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "harsh chaudhary",
+        "id": "nRo4vI1NjFSGchrDpFcNAg3uekq2",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rahul Yadav",
+        "id": "d6P2PMlOrjgGJRxg98EJS9DE5f13",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Saransh Nawani",
+        "id": "C4yusx2MlvWMehE8XMuQ8DSbGvZ2",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      }
+    ]
+  },
+  "Rebels FC": {
+    "memCount": "6",
+    "members": [
+      {
+        "name": "Gauravsingh",
+        "id": "Rgh6OjUMv9ZV5BwsFlEhK95vTDX2",
+        "pl_pos": "Right Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "ishansh",
+        "id": "Igjk7ChH6mZu93CfihHFbJcSXQQ2",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rohan solanki",
+        "id": "EbvuEDrxWkhoAykHmCLWTMiMsLy1",
+        "pl_pos": "GoalKeeper",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Aditya ",
+        "id": "Dh7Yxk4rLCeIxfyedahSt3gNvag1",
+        "pl_pos": "Center Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "harsh chaudhary",
+        "id": "nRo4vI1NjFSGchrDpFcNAg3uekq2",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rahul Yadav",
+        "id": "d6P2PMlOrjgGJRxg98EJS9DE5f13",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Saransh Nawani",
+        "id": "C4yusx2MlvWMehE8XMuQ8DSbGvZ2",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      }
+    ]
+  },
+  "Goal Diggers FC": {
+    "memCount": "8",
+    "members": [
+      {
+        "name": "Gauravsingh",
+        "id": "Rgh6OjUMv9ZV5BwsFlEhK95vTDX2",
+        "pl_pos": "Right Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "ishansh",
+        "id": "Igjk7ChH6mZu93CfihHFbJcSXQQ2",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rohan solanki",
+        "id": "EbvuEDrxWkhoAykHmCLWTMiMsLy1",
+        "pl_pos": "GoalKeeper",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Aditya ",
+        "id": "Dh7Yxk4rLCeIxfyedahSt3gNvag1",
+        "pl_pos": "Center Midfielder",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "harsh chaudhary",
+        "id": "nRo4vI1NjFSGchrDpFcNAg3uekq2",
+        "pl_pos": "Striker",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Rahul Yadav",
+        "id": "d6P2PMlOrjgGJRxg98EJS9DE5f13",
+        "pl_pos": "Left Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      },
+      {
+        "name": "Saransh Nawani",
+        "id": "C4yusx2MlvWMehE8XMuQ8DSbGvZ2",
+        "pl_pos": "Right Back",
+        "imgpath_sm": "https://firebasestorage.googleapis.com/v0/b/freekyk-prod.appspot.com/o/dummy_player_sm.jpg?alt=media&token=0de462b7-f8c7-4b17-b192-4ae1ea33cc2f"
+      }
+    ]
+  }
+}

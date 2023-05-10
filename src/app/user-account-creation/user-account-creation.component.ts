@@ -1,9 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/auth';
 import { AngularFirestore } from '@angular/fire/firestore';
+import { AngularFireFunctions } from '@angular/fire/functions';
+import {
+  AngularFireStorage,
+  AngularFireUploadTask,
+} from '@angular/fire/storage';
 import { NgxCsvParser } from 'ngx-csv-parser';
 import { Auth, CsvDataPlayer } from '../interfaces/csv.model';
-import { BasicStats, FsStats } from '../interfaces/user.model';
+import {
+  BasicStats,
+  FsStats,
+  PlayerBasicInfo,
+  PlayerMoreInfo,
+} from '../interfaces/user.model';
 
 @Component({
   selector: 'app-user-account-creation',
@@ -17,13 +27,72 @@ export class UserAccountCreationComponent implements OnInit {
   playerAdditionalDetails: any[] = [];
   csvRecords: CsvDataPlayer[] = [];
   images: string[] = [];
+  uids: string[] = [];
+  imagesLg: any[] = [];
+  transformations = [
+    {
+      width: 90,
+      height: 180,
+    },
+  ];
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
   constructor(
     private ngxCsvParser: NgxCsvParser,
     public ngAuth: AngularFireAuth,
-    private ngFirestore: AngularFirestore
-  ) {}
+    private ngFirestore: AngularFirestore,
+    private ngFunc: AngularFireFunctions,
+    private ngStorage: AngularFireStorage
+  ) {
+    this.getUsers();
+  }
+
+  getUsers() {
+    this.ngFirestore
+      .collection(`players`)
+      .get()
+      .subscribe((data) => {
+        data.docs.forEach((doc) => this.uids.push(doc.id));
+        let abc;
+        for (const uid of this.uids) {
+          abc = this.ngFirestore.firestore.runTransaction((transaction) => {
+            const colRef = this.ngFirestore.firestore
+              .collection(`players/${uid}/additionalInfo`)
+              .doc('otherInfo');
+            return transaction.get(colRef).then((doc) => {
+              if ((doc.data() as PlayerMoreInfo)?.imgpath_lg) {
+                this.imagesLg.push({
+                  uid,
+                  imgpath_lg: (doc.data() as PlayerMoreInfo)?.imgpath_lg,
+                });
+              }
+            });
+          });
+        }
+        abc.then(() => {
+          console.log(this.imagesLg);
+          const callable = this.ngFunc.httpsCallable('thumbnailOnReq');
+          callable(this.imagesLg)
+            .toPromise()
+            .then((response) => {
+              console.log(response);
+              if (response & response.length) {
+                localStorage.setItem('response', JSON.stringify(response));
+              }
+              const final = [];
+              this.ngStorage.upload(
+                'image_' + response[0].uid,
+                response[0].imageFile
+              );
+              // response.forEach(resp => {
+              //   final.push({
+              //   })
+              // });
+            })
+            .catch((error) => console.log(error));
+        });
+      });
+  }
 
   async fileChangeListener($event: any): Promise<any> {
     const files = $event.srcElement.files;
@@ -65,7 +134,8 @@ export class UserAccountCreationComponent implements OnInit {
         apps: 0,
         g: 0,
         w: 0,
-        cards: 0,
+        rcards: 0,
+        ycards: 0,
         l: 0,
       };
       const newFsStats: FsStats = {

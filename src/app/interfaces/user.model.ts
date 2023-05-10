@@ -1,4 +1,31 @@
-import { Timestamp } from '@firebase/firestore-types';
+export interface IPlayer {
+  name: string;
+  teamID: string;
+  isCaptain: boolean;
+  imgpath: string;
+  locCity: string;
+  locState: string;
+  locCountry: string;
+  gender: 'M' | 'F';
+  position: string;
+  born: number;
+  nickname: string;
+  bio: string;
+  strongFoot: 'L' | 'R';
+  jerseyNo: number;
+  id?: string
+}
+
+export interface IPlayerStats {
+  apps: number;
+  g: number;
+  w: number;
+  rcards: number;
+  ycards: number;
+  l: number;
+  id?: string
+}
+
 export interface PlayerBasicInfo {
   name: string;
   team: { name: string; id: string; capId: string };
@@ -12,7 +39,7 @@ export interface PlayerBasicInfo {
 export interface PlayerMoreInfo {
   imgpath_lg?: string;
   profile: boolean;
-  born?: Timestamp;
+  born?: number;
   locState?: string;
   locCountry?: string;
   nickname?: string;
@@ -24,12 +51,13 @@ export interface PlayerMoreInfo {
   prof_tours?: string[];
 }
 
+
 export interface FsBasic {
   name: string;
   nickname: string;
   gen?: 'M' | 'F';
   imgpath_lg?: string;
-  born?: Timestamp;
+  born?: number;
   locCountry?: string;
   bio?: string;
   ig?: string;
@@ -41,13 +69,6 @@ export interface SocialMediaLinks {
   yt: string;
   fb: string;
   tw: string;
-}
-export interface BasicStats {
-  apps: number;
-  g: number;
-  w: number;
-  cards: number;
-  l: number;
 }
 export interface FsStats {
   sk_lvl: number;
@@ -71,6 +92,22 @@ export interface BrandCollabInfo {
 }
 export interface MembershipInfo {
   premium: boolean;
-  validity: Date;
+  validity: number;
   paymentId: string;
+}
+export class BasicStats {
+  apps = 0;
+  g = 0;
+  w = 0;
+  rcards = 0;
+  ycards = 0;
+  l = 0;
+}
+export class FsStats {
+  sk_lvl = 0;
+  br_colb?: BrandCollabInfo[] = [];
+  top_vids?: string[] = [];
+  tr_a?: number = 0;
+  tr_w?: number = 0;
+  tr_u?: number = 0;
 }
